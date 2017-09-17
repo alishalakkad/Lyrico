@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lyrico/ViewController.swift"
+            timestampString = "527354405.042889"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lyrico/PlayPageViewController.swift"
+            timestampString = "527354405.042945"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "responses"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lyrico.PlayPageViewController.responses.getter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Lyrico"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alishalakkad/Desktop/Lyrico/Lyrico/PlayPageViewController.swift"
+                  timestampString = "527323076.766749"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lyrico.PlayPageViewController.responses.setter : Swift.Dictionary&lt;Swift.String, Swift.String&gt;"
+                  moduleName = "Lyrico"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alishalakkad/Desktop/Lyrico/Lyrico/PlayPageViewController.swift"
+                  timestampString = "527323076.771363"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lyrico.PlayPageViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Lyrico.PlayPageViewController"
+                  moduleName = "Lyrico"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alishalakkad/Desktop/Lyrico/Lyrico/PlayPageViewController.swift"
+                  timestampString = "527323076.7729"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lyrico.PlayPageViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Lyrico.PlayPageViewController&gt;"
+                  moduleName = "Lyrico"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alishalakkad/Desktop/Lyrico/Lyrico/PlayPageViewController.swift"
+                  timestampString = "527323076.774387"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "21">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

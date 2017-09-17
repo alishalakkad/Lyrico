@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3024BC821F6E0E26008DED55 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024BC811F6E0E26008DED55 /* CongratsViewController.swift */; };
+		3024BC8C1F6E5664008DED55 /* correctSoundLyrico.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3024BC8A1F6E4FA4008DED55 /* correctSoundLyrico.wav */; };
+		3024BC8D1F6E5667008DED55 /* wrongSoundLyrico.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3024BC8B1F6E4FA8008DED55 /* wrongSoundLyrico.wav */; };
+		30CEA03E1F6D78FD00DBEB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEA03D1F6D78FD00DBEB77 /* AppDelegate.swift */; };
+		30CEA0401F6D78FD00DBEB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEA03F1F6D78FD00DBEB77 /* ViewController.swift */; };
+		30CEA0431F6D78FD00DBEB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CEA0411F6D78FD00DBEB77 /* Main.storyboard */; };
+		30CEA0451F6D78FD00DBEB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CEA0441F6D78FD00DBEB77 /* Assets.xcassets */; };
+		30CEA0481F6D78FD00DBEB77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CEA0461F6D78FD00DBEB77 /* LaunchScreen.storyboard */; };
+		30CEA0531F6D78FD00DBEB77 /* LyricoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEA0521F6D78FD00DBEB77 /* LyricoTests.swift */; };
+		30CEA05E1F6D78FE00DBEB77 /* LyricoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEA05D1F6D78FE00DBEB77 /* LyricoUITests.swift */; };
+		30CEA06C1F6D79C400DBEB77 /* PlayPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CEA06B1F6D79C400DBEB77 /* PlayPageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30CEA04F1F6D78FD00DBEB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CEA0321F6D78FD00DBEB77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CEA0391F6D78FD00DBEB77;
+			remoteInfo = Lyrico;
+		};
+		30CEA05A1F6D78FE00DBEB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CEA0321F6D78FD00DBEB77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CEA0391F6D78FD00DBEB77;
+			remoteInfo = Lyrico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3024BC811F6E0E26008DED55 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		3024BC8A1F6E4FA4008DED55 /* correctSoundLyrico.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = correctSoundLyrico.wav; path = ../../../Documents/correctSoundLyrico.wav; sourceTree = "<group>"; };
+		3024BC8B1F6E4FA8008DED55 /* wrongSoundLyrico.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wrongSoundLyrico.wav; path = ../../../Documents/wrongSoundLyrico.wav; sourceTree = "<group>"; };
+		30CEA03A1F6D78FD00DBEB77 /* Lyrico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyrico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CEA03D1F6D78FD00DBEB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30CEA03F1F6D78FD00DBEB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30CEA0421F6D78FD00DBEB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CEA0441F6D78FD00DBEB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CEA0471F6D78FD00DBEB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CEA0491F6D78FD00DBEB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CEA04E1F6D78FD00DBEB77 /* LyricoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyricoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CEA0521F6D78FD00DBEB77 /* LyricoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricoTests.swift; sourceTree = "<group>"; };
+		30CEA0541F6D78FD00DBEB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CEA0591F6D78FD00DBEB77 /* LyricoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyricoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CEA05D1F6D78FE00DBEB77 /* LyricoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricoUITests.swift; sourceTree = "<group>"; };
+		30CEA05F1F6D78FE00DBEB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CEA06B1F6D79C400DBEB77 /* PlayPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CEA0371F6D78FD00DBEB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CEA04B1F6D78FD00DBEB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CEA0561F6D78FD00DBEB77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CEA0311F6D78FD00DBEB77 = {
+			isa = PBXGroup;
+			children = (
+				30CEA03C1F6D78FD00DBEB77 /* Lyrico */,
+				30CEA0511F6D78FD00DBEB77 /* LyricoTests */,
+				30CEA05C1F6D78FE00DBEB77 /* LyricoUITests */,
+				30CEA03B1F6D78FD00DBEB77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CEA03B1F6D78FD00DBEB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CEA03A1F6D78FD00DBEB77 /* Lyrico.app */,
+				30CEA04E1F6D78FD00DBEB77 /* LyricoTests.xctest */,
+				30CEA0591F6D78FD00DBEB77 /* LyricoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CEA03C1F6D78FD00DBEB77 /* Lyrico */ = {
+			isa = PBXGroup;
+			children = (
+				30CEA03D1F6D78FD00DBEB77 /* AppDelegate.swift */,
+				30CEA03F1F6D78FD00DBEB77 /* ViewController.swift */,
+				30CEA06B1F6D79C400DBEB77 /* PlayPageViewController.swift */,
+				3024BC811F6E0E26008DED55 /* CongratsViewController.swift */,
+				3024BC8B1F6E4FA8008DED55 /* wrongSoundLyrico.wav */,
+				3024BC8A1F6E4FA4008DED55 /* correctSoundLyrico.wav */,
+				30CEA0411F6D78FD00DBEB77 /* Main.storyboard */,
+				30CEA0441F6D78FD00DBEB77 /* Assets.xcassets */,
+				30CEA0461F6D78FD00DBEB77 /* LaunchScreen.storyboard */,
+				30CEA0491F6D78FD00DBEB77 /* Info.plist */,
+			);
+			path = Lyrico;
+			sourceTree = "<group>";
+		};
+		30CEA0511F6D78FD00DBEB77 /* LyricoTests */ = {
+			isa = PBXGroup;
+			children = (
+				30CEA0521F6D78FD00DBEB77 /* LyricoTests.swift */,
+				30CEA0541F6D78FD00DBEB77 /* Info.plist */,
+			);
+			path = LyricoTests;
+			sourceTree = "<group>";
+		};
+		30CEA05C1F6D78FE00DBEB77 /* LyricoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30CEA05D1F6D78FE00DBEB77 /* LyricoUITests.swift */,
+				30CEA05F1F6D78FE00DBEB77 /* Info.plist */,
+			);
+			path = LyricoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CEA0391F6D78FD00DBEB77 /* Lyrico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CEA0621F6D78FE00DBEB77 /* Build configuration list for PBXNativeTarget "Lyrico" */;
+			buildPhases = (
+				30CEA0361F6D78FD00DBEB77 /* Sources */,
+				30CEA0371F6D78FD00DBEB77 /* Frameworks */,
+				30CEA0381F6D78FD00DBEB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyrico;
+			productName = Lyrico;
+			productReference = 30CEA03A1F6D78FD00DBEB77 /* Lyrico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30CEA04D1F6D78FD00DBEB77 /* LyricoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CEA0651F6D78FE00DBEB77 /* Build configuration list for PBXNativeTarget "LyricoTests" */;
+			buildPhases = (
+				30CEA04A1F6D78FD00DBEB77 /* Sources */,
+				30CEA04B1F6D78FD00DBEB77 /* Frameworks */,
+				30CEA04C1F6D78FD00DBEB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CEA0501F6D78FD00DBEB77 /* PBXTargetDependency */,
+			);
+			name = LyricoTests;
+			productName = LyricoTests;
+			productReference = 30CEA04E1F6D78FD00DBEB77 /* LyricoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30CEA0581F6D78FD00DBEB77 /* LyricoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CEA0681F6D78FE00DBEB77 /* Build configuration list for PBXNativeTarget "LyricoUITests" */;
+			buildPhases = (
+				30CEA0551F6D78FD00DBEB77 /* Sources */,
+				30CEA0561F6D78FD00DBEB77 /* Frameworks */,
+				30CEA0571F6D78FD00DBEB77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CEA05B1F6D78FE00DBEB77 /* PBXTargetDependency */,
+			);
+			name = LyricoUITests;
+			productName = LyricoUITests;
+			productReference = 30CEA0591F6D78FD00DBEB77 /* LyricoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CEA0321F6D78FD00DBEB77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alisha Lakkad";
+				TargetAttributes = {
+					30CEA0391F6D78FD00DBEB77 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					30CEA04D1F6D78FD00DBEB77 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30CEA0391F6D78FD00DBEB77;
+					};
+					30CEA0581F6D78FD00DBEB77 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30CEA0391F6D78FD00DBEB77;
+					};
+				};
+			};
+			buildConfigurationList = 30CEA0351F6D78FD00DBEB77 /* Build configuration list for PBXProject "Lyrico" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CEA0311F6D78FD00DBEB77;
+			productRefGroup = 30CEA03B1F6D78FD00DBEB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CEA0391F6D78FD00DBEB77 /* Lyrico */,
+				30CEA04D1F6D78FD00DBEB77 /* LyricoTests */,
+				30CEA0581F6D78FD00DBEB77 /* LyricoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CEA0381F6D78FD00DBEB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CEA0481F6D78FD00DBEB77 /* LaunchScreen.storyboard in Resources */,
+				30CEA0451F6D78FD00DBEB77 /* Assets.xcassets in Resources */,
+				30CEA0431F6D78FD00DBEB77 /* Main.storyboard in Resources */,
+				3024BC8D1F6E5667008DED55 /* wrongSoundLyrico.wav in Resources */,
+				3024BC8C1F6E5664008DED55 /* correctSoundLyrico.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CEA04C1F6D78FD00DBEB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CEA0571F6D78FD00DBEB77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CEA0361F6D78FD00DBEB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CEA06C1F6D79C400DBEB77 /* PlayPageViewController.swift in Sources */,
+				30CEA0401F6D78FD00DBEB77 /* ViewController.swift in Sources */,
+				30CEA03E1F6D78FD00DBEB77 /* AppDelegate.swift in Sources */,
+				3024BC821F6E0E26008DED55 /* CongratsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CEA04A1F6D78FD00DBEB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CEA0531F6D78FD00DBEB77 /* LyricoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CEA0551F6D78FD00DBEB77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CEA05E1F6D78FE00DBEB77 /* LyricoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30CEA0501F6D78FD00DBEB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CEA0391F6D78FD00DBEB77 /* Lyrico */;
+			targetProxy = 30CEA04F1F6D78FD00DBEB77 /* PBXContainerItemProxy */;
+		};
+		30CEA05B1F6D78FE00DBEB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CEA0391F6D78FD00DBEB77 /* Lyrico */;
+			targetProxy = 30CEA05A1F6D78FE00DBEB77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30CEA0411F6D78FD00DBEB77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CEA0421F6D78FD00DBEB77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30CEA0461F6D78FD00DBEB77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CEA0471F6D78FD00DBEB77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CEA0601F6D78FE00DBEB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30CEA0611F6D78FE00DBEB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CEA0631F6D78FE00DBEB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lyrico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisha.Lyrico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30CEA0641F6D78FE00DBEB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lyrico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisha.Lyrico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30CEA0661F6D78FE00DBEB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyricoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisha.LyricoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyrico.app/Lyrico";
+			};
+			name = Debug;
+		};
+		30CEA0671F6D78FE00DBEB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyricoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisha.LyricoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyrico.app/Lyrico";
+			};
+			name = Release;
+		};
+		30CEA0691F6D78FE00DBEB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyricoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisha.LyricoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lyrico;
+			};
+			name = Debug;
+		};
+		30CEA06A1F6D78FE00DBEB77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LyricoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alisha.LyricoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lyrico;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CEA0351F6D78FD00DBEB77 /* Build configuration list for PBXProject "Lyrico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CEA0601F6D78FE00DBEB77 /* Debug */,
+				30CEA0611F6D78FE00DBEB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CEA0621F6D78FE00DBEB77 /* Build configuration list for PBXNativeTarget "Lyrico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CEA0631F6D78FE00DBEB77 /* Debug */,
+				30CEA0641F6D78FE00DBEB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CEA0651F6D78FE00DBEB77 /* Build configuration list for PBXNativeTarget "LyricoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CEA0661F6D78FE00DBEB77 /* Debug */,
+				30CEA0671F6D78FE00DBEB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CEA0681F6D78FE00DBEB77 /* Build configuration list for PBXNativeTarget "LyricoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CEA0691F6D78FE00DBEB77 /* Debug */,
+				30CEA06A1F6D78FE00DBEB77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CEA0321F6D78FD00DBEB77 /* Project object */;
+}
